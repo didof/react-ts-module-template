@@ -2,20 +2,35 @@
   "name": "v-basarat-ali-react-ts-module",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
-  "types": "lib",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "types": "build",
+  "files": [
+    "build"
+  ],
   "scripts": {
-    "build": "tsc -p ."
+    "dev": "rollup -c rollup.config.dev.js -w",
+    "build": "rollup -c"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-    "react": ">=16.0.0"
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
     "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "node-sass": "^5.0.0",
     "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "rollup": "^2.36.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-typescript2": "^0.29.0",
     "typescript": "^4.1.3"
   }
 }

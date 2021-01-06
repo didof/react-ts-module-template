@@ -1,0 +1,17 @@
+.bcp {
+    padding: 16px;
+    width: 360px;
+    text-align: center;
+
+    &.bcp-primary {
+        background-color: lightblue;
+        border: 1px solid darkblue;
+        color: black;
+    }
+
+    &.bcp-secondary {
+        background-color: darkblue;
+        border: 1px solid lightblue;
+        color: white;
+    }
+}

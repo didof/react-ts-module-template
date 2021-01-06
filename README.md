@@ -35,13 +35,21 @@ Initialize `tsconfig.json`.
 #### 2. Enhance adding React
 
 1. `npm i react @types/react -D`
-In `package.json` add *peerDependencies* indicating that the project using this library should use a react with version at least 16.0.0
+In `package.json` add react to *peerDependencies* indicating that the project using this library should use a react with version at least 16.8.0
 
 2. Enable `jsx` to `react` in `tsconfig.json`
 
 3. `mv src/index.ts src/index.tsx`and modify it to export a component
 
 4. run `npm run build`
+
+#### 3.
+
+1. `npm i -D react-dom` and add it to *peerDependencies*
+
+src/bcp/bcp.tsx -.sass -.types.ts
+[barrel export](https://github.com/basarat/typescript-book/blob/master/docs/tips/barrel.md) in src/index.ts
+ty
 
 ***
 
@@ -50,3 +58,7 @@ In `package.json` add *peerDependencies* indicating that the project using this 
 * GitHub    | [Basarat Ali Syed](https://github.com/basarat)
 * YouTube   | [Basarat Ali](https://www.youtube.com/channel/UCGD_0i6L48hucTiiyhb5QzQ)
 * Website   | [basarat.com](https://basarat.com/)
+
+* Twitter   | [@_harveydelaney](https://twitter.com/_harveydelaney)
+* GitHub    | [Harvey Delaney](https://github.com/HarveyD)
+* Blog      | [https://blog.harveydelaney.com/creating-your-own-react-component-library/](https://blog.harveydelaney.com/creating-your-own-react-component-library/)
