@@ -1,6 +1,6 @@
 {
-  "name": "v-basarat-ali-react-ts-module",
-  "version": "1.0.0",
+  "name": "didof-personal-react-ts-module-builder",
+  "version": "2.0.0",
   "description": "",
   "main": "build/index.js",
   "module": "build/index.es.js",
@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "dev": "rollup -c rollup.config.dev.js -w",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [],
   "author": "",
