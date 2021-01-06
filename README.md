@@ -4,6 +4,8 @@
 
 `npm i didof-personal-react-ts-module-builder`
 
+from [npm](https://www.npmjs.com/package/didof-personal-react-ts-module-builder)
+
 
 ## Derived from: Harvey Delaney
 * Twitter   | [@_harveydelaney](https://twitter.com/_harveydelaney)
