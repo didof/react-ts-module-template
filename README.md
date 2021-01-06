@@ -1,5 +1,9 @@
 # npm React module
 
+# Install
+
+`npm i didof-personal-react-ts-module-builder`
+
 ## Derived from: Harvey Delaney
 * Twitter   | [@_harveydelaney](https://twitter.com/_harveydelaney)
 * GitHub    | [Harvey Delaney](https://github.com/HarveyD)
@@ -8,7 +12,7 @@
 ### Usage
 
 Personally, I prefer to fork this repo to create a new library.
-Then I import it via a [simlink](https://docs.npmjs.com/cli/v6/commands/npm-link) in a suitable react typescript environment/nextjs environment.
+Then I import it via a [simlink](https://docs.npmjs.com/cli/v6/commands/npm-link) in a suitable react typescript environment/nextjs environment. Here I can import it and test it manually.
 
 ### Currently supports
 * production of bundles in two different JavaScript module formats
