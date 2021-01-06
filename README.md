@@ -1,8 +1,9 @@
 # npm React module
 
-# Install
+## Install
 
 `npm i didof-personal-react-ts-module-builder`
+
 
 ## Derived from: Harvey Delaney
 * Twitter   | [@_harveydelaney](https://twitter.com/_harveydelaney)
@@ -23,6 +24,7 @@ Then I import it via a [simlink](https://docs.npmjs.com/cli/v6/commands/npm-link
 
 ### ToDo
 I plan to add configuration for:
+1. tree shaking
 1. plugin-images
 1. plugin-json
 1. minifyier
